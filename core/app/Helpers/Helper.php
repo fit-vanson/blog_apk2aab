@@ -588,7 +588,7 @@ class Helper
 
     static function languageName($Language)
     {
-        $language_title = "<span class='label light text-dark lang-label'>";
+        $language_title = "";
 //        if (!empty($Language)) {
 //            if ($Language->icon != "") {
 //                $language_title .= "<img src=\"" . asset('assets/dashboard/images/flags/' . $Language->icon . '.svg') . "\" alt=\"\">";
